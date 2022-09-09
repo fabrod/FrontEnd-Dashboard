@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CarMaxSharpSansDisplay-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/fonts/CarMaxSharpSansDisplay-Bold_84974702.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/fonts/Lato-Bold.ttf");
+}
+
+@layer components {
+  .btn-blue-hollow {
+    @apply rounded-lg px-8 py-3 border-2 border-decisionDetailColorText text-decisionDetailColorText font-bold text-md;
+  }
+  .btn-blue-hollow:hover {
+    @apply bg-decisionDetailColorText text-white;
+  }
+
+  .btn-blue-filled {
+    @apply rounded-lg px-8 py-3 border-2 border-decisionDetailColorText text-white bg-decisionDetailColorText font-bold text-md;
+  }
+  .btn-blue-filled:hover {
+    @apply bg-white text-decisionDetailColorText;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+I can add font Lato-Bold to line 16
+src: url("/fonts/Lato-Bold.ttf");*/

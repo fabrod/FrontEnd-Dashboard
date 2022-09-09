@@ -1,0 +1,35 @@
+// 1-a import all LEGOS SCSS resources:
+// @import '~@kmx/legos/src/index.scss';
+
+// 1-b -or- import only some LEGOS SCSS resources:
+// @import '~@kmx/legos-theme/src/typography/_index.scss';
+// @import '~@kmx/legos-circular-progress/src/index.scss';
+// @import '~@kmx/legos-snackbar/src/index.scss';
+// @import '~@kmx/legos-layout-grid/src/index.scss';
+// @import '~@kmx/legos-mini-header/src/index.scss';
+// @import '~@kmx/legos-button/src/index';
+// @import '~@kmx/legos-text-field/src/index';
+// @import '~@kmx/legos-checkbox/src/index';
+// @import '~@kmx/legos-card/src/index';
+// @import '~@kmx/legos-select/src/index';
+// @import '~@kmx/legos-button/src/index';
+// @import '~@kmx/legos-dialog/src/index';
+@import '~@kmx/legos/src/index';
+
+// no matter which of the above import strategies used,
+// you will need to also import the web-fonts:
+@import '~@kmx/legos-theme/src/web-fonts';
+
+// import your other SCSS files here:
+// @import 'some/path/to/a/scss/file.scss';
+
+// your root app styles here:
+.your-unique-app-class {
+    @include type-display-4(kmx-color('blue', 900));
+}
+.kmx-mini-header {
+    box-sizing: border-box;
+}
+.kmx-alert-label {
+    color: kmx-color('red', 600);
+}

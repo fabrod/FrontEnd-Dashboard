@@ -1,0 +1,165 @@
+{
+  "/api/search": {
+    "data": [
+      {
+        "applicationIndex": 0,
+        "applicationId": "VSA",
+        "cardColor": "Green",
+        "vehicle": {
+          "stockNumber": 21339854,
+          "make": "Toyota",
+          "model": "RAV4 XLE",
+          "modelYear": 2017,
+          "mileage": "23,507 mi",
+          "msrp": "$27,998",
+          "vin": "Ed Truck(CEC 7209)",
+          "date": "April 26, (1 day ago)",
+          "condition": "Approval (1)",
+          "Color": ""
+        },
+        "Customer": {
+          "firstName": "Leslie",
+          "middleName": "",
+          "lastName": "Mireles",
+          "email":"LeslieMireles@Me.com",
+          "phone":"(804) 555-5555",
+          "DOB":"11/21/1997",
+          "SSN":"***-**-6125"
+        }
+      },
+
+      {
+        "applicationIndex": 1,
+        "applicationId": "Pre-Approval",
+        "cardColor": "grey",
+        "vehicle": {
+          "stockNumber": 21339100,
+          "make": "Mercedes-Benz",
+          "model": "GLA 250",
+          "modelYear": 2016,
+          "mileage": "31,900 mi",
+          "msrp": "$27,998",
+          "date": "April 15, (12 days ago)",
+          "condition": "Pending Decision"
+        },
+        "Customer": {
+          "firstName": "Roy",
+          "middleName": "",
+          "lastName": "Anderson",
+          "email":"RoyAnderson@Me.com",
+          "phone":"(804) 555-5555",
+          "DOB":"11/21/1997",
+          "SSN":"***-**-6125"
+        }
+      },
+
+      {
+        "applicationIndex": 2,
+        "applicationId": "VSA",
+        "cardColor": "YellowRed",
+        "vehicle": {
+          "stockNumber": 21378442,
+          "make": "Nissan",
+          "model": "Altima SR",
+          "modelYear": 2019,
+          "mileage": "42,001 mi",
+          "msrp": "$24,998",
+          "vin": "Hidetoshi Hasagawa (CEC 7209)",
+          "date": "April 6, (21 days ago)",
+          "condition": "Conditional Approvals (2), Declines (6)",
+          "Color": ""
+        },
+        "Customer": {
+          "firstName": "Jim",
+          "middleName": "",
+          "lastName": "Halpert",
+          "email":"JimHalpert@Me.com",
+          "phone":"(804) 555-5555",
+          "DOB":"11/21/1997",
+          "SSN":"***-**-6125"
+        }
+      },
+
+      {
+        "applicationIndex": 3,
+        "applicationId": "VSA",
+        "cardColor": "RedDotted",
+        "vehicle": {
+          "stockNumber": 21392991,
+          "make": "Mercedes-Benz",
+          "model": "CLS550",
+          "modelYear": 2017,
+          "mileage": "11,914 mi",
+          "msrp": "$48,998",
+          "vin": "Jo Bennett (7101)",
+          "date": "April 25, (3 days ago)",
+          "condition": "DNDB",
+          "Color": ""
+        },
+        "Customer": {
+          "firstName": "Creed",
+          "middleName": "",
+          "lastName": "Bratton",
+          "email":"CreedBratton@Me.com",
+          "phone":"(804) 555-5555",
+          "DOB":"11/21/1997",
+          "SSN":"***-**-6125"
+        }
+      },
+
+      {
+        "applicationIndex": 4,
+        "applicationId": "VSA",
+        "cardColor": "Red",
+        "vehicle": {
+          "stockNumber": 21392991,
+          "make": "Mercedes-Benz",
+          "model": "CLS550",
+          "modelYear": 2017,
+          "mileage": "11,914 mi",
+          "msrp": "$48,998",
+          "vin": "Jo Bennett (7101)",
+          "date": "Today 3:57 PM",
+          "condition": "Decline",
+          "Color": ""
+        },
+        "Customer": {
+          "firstName": "Creed",
+          "middleName": "",
+          "lastName": "Bratton",
+          "email": "CreedBratton@Me.com",
+          "phone": "(804) 555-5555",
+          "DOB": "11/21/1997",
+          "SSN": "***-**-6125"
+        }
+      },
+
+      {
+        "applicationIndex": 5,
+        "applicationId": "VSA",
+        "cardColor": "Green",
+        "vehicle": {
+          "stockNumber": 21264078,
+          "make": "Volkswagen",
+          "model": "Jetta R-line",
+          "modelYear": 2019,
+          "mileage": "72,583 mi",
+          "msrp": "$22,998",
+          "vin": "Motari Momanyi (CEC 7209)",
+          "date": "Mar 04, (32 days ago)",
+          "condition": "Straight Approval (1), Conditional Approvals (2), Decline (1)",
+          "Color": ""
+        },
+        "Customer": {
+          "firstName": "Kristina",
+          "middleName": "",
+          "lastName": "Taylor",
+          "email":"KristinaTaylor@Me.com",
+          "phone":"(804) 555-5555",
+          "DOB":"11/21/1997",
+          "SSN":"***-**-6125"
+        }
+      }
+    ]
+  }
+}
