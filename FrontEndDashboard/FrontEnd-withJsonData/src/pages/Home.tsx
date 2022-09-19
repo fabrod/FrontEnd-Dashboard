@@ -76,7 +76,7 @@ const Home = () => {
               <input
                 onChange={(event) => setQuery(event.target.value)}
                 className="outline-none bg-right w-full h-full rounded-[8px] text-slate700 text-sm"
-                // placeholder="Search by Customer Name, Date, Stock Number, or Associate Name"
+              
                 placeholder="Search by Make, Model, or Type"
               />
               <BsSearch className="w-[20px] h-[20px] text-blue900"></BsSearch>
@@ -160,7 +160,7 @@ const Home = () => {
         {currentTab === 1 ? (
           showCards ? (
             <Cards
-              // data={SearchData["/api/search"]["data"].filter((item) => {
+            
               data={ApiResults.filter((item) => {
                 if (query.toLowerCase() === "") {
                   return item;
@@ -168,14 +168,14 @@ const Home = () => {
                   query
                     .toLowerCase()
                     .trim()
-                    // .includes(item.Customer.firstName.toLowerCase().trim()) ||
+                  
                     .includes(
                       item.buysCustomer.firstName.toLowerCase().trim()
                     ) ||
                   query
                     .toLowerCase()
                     .trim()
-                    // .includes(item.Customer.lastName.toLowerCase().trim())
+                  
                     .includes(item.buysCustomer.lastName.toLowerCase().trim())
                 ) {
                   return item;
@@ -183,7 +183,7 @@ const Home = () => {
                   query
                     .toLowerCase()
                     .trim()
-                    // .includes(item.vehicle.date.toLocaleLowerCase().trim())
+                  
                     .includes(item.createdDate.date.toLocaleLowerCase().trim())
                 ) {
                   return item;

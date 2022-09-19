@@ -73,7 +73,7 @@ const Notifications = () => {
             <div className="mt-[25px] w-full sm:px-20">
               <div className="flex items-center justify-between mb-[10px] mt-[18px] p-[7px] w-full h-[56px] border border-[#dedfdf] rounded-[8px]">
                 <input
-                  // onChange={(event) => setQuery(event.target.value)}
+                
                   onChange={(event) => console.log(event.target.value)}
                   className="outline-none bg-right w-full h-full rounded-[8px] text-slate700 text-sm"
                   placeholder="Search by Customer Name, Date, Stock Number, or Associate Name"

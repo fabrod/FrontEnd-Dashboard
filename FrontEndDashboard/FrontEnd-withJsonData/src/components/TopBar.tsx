@@ -5,11 +5,7 @@ import { MdNotifications } from "react-icons/md";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-//import '@horizon/card/hzn-card';
-//<hzn-card tone="brand">Brand</hzn-card>   HORIZON IS WORKING
-//<button className="kmx-button kmx-button--primary">   LEGOS IS WORKING
-//flat button
-//</button>
+
 
 type PropsTypes = {
   currentTab: number;
@@ -18,11 +14,7 @@ type PropsTypes = {
 };
 
 const TopBar: React.FC<PropsTypes> = (props:PropsTypes) => {
-  // const [associTopBarate, setAssociate] = useState("Associate");
 
-  // function nameChange() {
-  //   setAssociate("Mike");
-  // }
   const [currentTab, setCurrentTab] = useState(props.currentTab);
 
   return (

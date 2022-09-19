@@ -63,7 +63,7 @@ const ApplicationReview = () => {
     if (!(data.length > 0)) return;
 
     setItem(data[parseInt(applicationIndex)]);
-  }, [data.length > 0]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [data.length > 0]); 
 
   return (
     <div className="flex flex-col items-center font-lato pb-20">
