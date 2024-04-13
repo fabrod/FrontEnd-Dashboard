@@ -1,4 +1,4 @@
-# FrontEnd-Dashboard
+# FrontEnd-Dashboard with React and tailwind static website
 
 FrontEnd with React and tailwind static website
 Dashboard for searching consumer approvals.
